@@ -328,7 +328,7 @@ header {
 .ivents_item {
     width: 40%;
     margin: 1px;
-    padding: 25px 24px 30px 25px;
+    padding: 25px 24px 38px 25px;
     box-shadow: 0 0 18px rgba(0, 0, 0, 0.04);
     background-color: #ffffff;
 }
@@ -661,8 +661,8 @@ header {
     }
 
     .ivents_item {
-        width: 36%;
-        padding: 4.4%;
+        width: 39%;
+        padding: 25px 24px 57px 25px;
     }
 
     .ivents_item__header {
