@@ -377,8 +377,17 @@ header {
     font-weight: 700;
 }
 
+.paginate_item a {
+    text-decoration: none;
+    color: #000000;
+}
+
 .paginate_item.first {
     background-color: #449653;
+    color: #ffffff;
+}
+
+.paginate_item.first a {
     color: #ffffff;
 }
 
