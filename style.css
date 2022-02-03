@@ -639,12 +639,14 @@ header {
     font-style: italic;
 }
 
-.footer_menu__item {
+.footer_menu__item a {
     font-family: "PT Sans";
     font-size: 16px;
     line-height: 34px;
     letter-spacing: 0.08px;
     text-transform: uppercase;
+    text-transform: none;
+    color: #fffff;
 }
 
 .footer_icons {
@@ -657,15 +659,14 @@ header {
     display: flex;
     flex-direction: row;
     margin-bottom: 40px;
+    align-items: center;
 }
 
-.footer_icons__social img {
+.footer_icons__social a {
     margin-right: 25px;
-    max-height: 15px;
-    max-width: 15px;
 }
 
-.footer_icons__social img:last-child {
+.footer_icons__social a:last-child {
     margin-right: 0;
 }
 
