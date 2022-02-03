@@ -367,7 +367,7 @@ header {
     overflow: hidden;
 }
 
-.paginate {
+.' {
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -414,14 +414,16 @@ header {
     margin-bottom: 10px;
 }
 
-.paginate_prev {
+.paginate_prev a {
+    display: block;
     background: url(img/prev.png);
     width: 7px;
     height: 11px;
     margin-right: 18px;
 }
 
-.paginate_next {
+.paginate_next a {
+    display: block;
     background: url(img/next.png);
     width: 7px;
     height: 11px;
