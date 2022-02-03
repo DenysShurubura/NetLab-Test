@@ -138,6 +138,10 @@ header {
     line-height: 28px;
 }
 
+.promo .slick-dots li button:hover {
+    cursor: pointer;
+}
+
 /* Blog ------------------------------------- */
 
 .blog {
